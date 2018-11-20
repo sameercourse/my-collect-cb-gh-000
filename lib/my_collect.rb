@@ -1,19 +1,14 @@
 def my_collect(arr)
 
 counter=0;
+collections=[];
 while counter<arr.length do
   
-  yield(arr[counter])
-
-
+  collections<< yield(arr[counter])
+  counter+=1
 
 end 
-
-
- 
-
-
-
+collections
 end 
 
 
